@@ -21,7 +21,7 @@ const Footer = () => {
                             info@blackhorseinvestment.com
                         </p>
                         <p className='text-sm text-[#C3CDD3] pt-2'>
-                            +0093693279
+                            +96893693279
                         </p>
                     </div>
                     <div className='md:pt-0 pt-10'>
