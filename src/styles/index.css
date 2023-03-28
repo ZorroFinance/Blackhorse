@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* defines the animation */
+@keyframes fadeInUp {
+    from { 
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+.first {
+    opacity: 0; 
+    animation: fadeInUp 1s ease-in-out 0s forwards;
+    animation-delay: 0.5s;
+}
+
+.second {
+    opacity: 0; 
+    animation: fadeInUp 1s ease-in-out 0s forwards;
+    animation-delay: 1s;
+}
+
+.third {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out 0s forwards;
+    animation-delay: 2s;
+
+}
+
+.fourth {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out 0s forwards;
+    animation-delay: 3s;
+}
+ 
+html {
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+.contact {
+    background-image: url('../../public/contacts.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* .header {
+    transition: all 0.5s ease-in-out; 
+
+}
+
+.header.scrolled {
+    transition: all 0.5s ease-in-out;
+    padding-top: 0;
+    background-color: black;
+} */
+
+
+/* .Pharma {
+    background-image: url('../../public/header-right-img.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1050px;
+
+}
+
+.Risks {
+  background-image: url('../../public/Dots.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 1050px;
+
+}
+
+.Riskes {
+  background-image: url('../../public/cybercrime-through-the-internet--e1615279069227.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 450px;
+}
+
+.Collab {
+  background-image: url('../../public/collaboration.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+} */
+
+/* .Pharma {
+    animation: star 10s ease-out infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: Pharma;
+} */
+
+/* @keyframes Pharma {
+    0% {
+      opacity: 0;
+      transform: scale(1.5) translateY(-0.75em);
+    }
+    20% {
+      opacity: 1;
+    }
+    89% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translateZ(-1000em);
+    }
+  } */
+
+
+/* .Discovery {
+    background-image: url('../../public/Discover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.Biopharma {
+  background-image: url('../../public/Biapharma.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 1050px;
+}
+
+.webtech {
+  background-image: url('../../public/Web.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 1100px;
+} */
+
